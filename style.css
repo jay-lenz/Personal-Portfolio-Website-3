@@ -386,6 +386,13 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.section__text__p3 {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+
 /* CONTACT */
 
 #contact {
