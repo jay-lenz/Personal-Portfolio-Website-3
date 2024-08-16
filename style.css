@@ -149,8 +149,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  /* padding-top: 4vh;
+  height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -264,6 +264,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
+  margin-bottom: 10rem;
   position: relative;
 }
 
@@ -290,7 +291,11 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: -5rem;
+}
+
+.title {
+  height: 90px;
 }
 
 .details-container {
@@ -356,6 +361,7 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  margin-bottom: 10rem;
   position: relative;
 }
 
@@ -386,7 +392,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .contact-info-upper-container {
@@ -423,7 +429,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 25vh;
   margin: 0 1rem;
 }
 
