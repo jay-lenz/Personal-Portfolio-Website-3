@@ -67,12 +67,6 @@
   #experience {
     margin-top: rem;
 
-    .experience-details-container {
-      display: inline-table;
-    }
-
-
-
     .title {
       height: 60px;
     }
