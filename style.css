@@ -27,6 +27,10 @@ a,
 }
 
 /* DESKTOP NAV */
+.logo img { 
+  position: inherit;
+  width: 50px;
+}
 
 nav,
 .nav-links {
@@ -58,9 +62,6 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
 
 .logo:hover {
   cursor: default;
